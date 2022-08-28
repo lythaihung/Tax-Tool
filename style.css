@@ -1,0 +1,161 @@
+/*document*/
+html{
+  background-image: linear-gradient(to right, pink,white);
+}
+*{
+  box-sizing: border-box;
+}
+.block-title {
+  color: rgb(44, 42, 42);
+}
+/*navigation style*/
+nav {
+  display: block;  
+}
+#nav-list {
+  margin-top: 50px;
+  padding-inline-start: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around ;
+  /* justify-items: center; */
+
+}
+#nav-list li {
+  /* width: 200px; */
+  height: 60px;
+  background: rgb(98, 247, 193);
+  box-shadow: 0px 1px 15px -10px;
+  border-radius: 20px;
+  margin: 5px;
+  text-align: center;
+  padding: 20px;
+
+}
+#nav-list .nav a{
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  /* vertical-align: middle; */
+  /* align-self: center; */
+
+}
+
+/*main style*/
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px auto;
+
+}
+
+/*left section style*/
+aside {
+  width: 250px;
+  /* padding-top: 20px; */
+}
+/* Money rate update table  */
+#RateMoney {
+  width: 100%;
+  box-shadow: 0px 1px 15px -10px;
+  margin-bottom: 20px;
+  font-size: 0.8em ;
+  border-collapse:collapse;
+  border: solid 1px rgba(255, 255, 255, 0.511);
+  background: rgb(217, 245, 243);
+
+}
+#RateMoney th, #RateMoney td {
+  border: solid 1px rgba(255, 255, 255, 0.511);
+  padding: 5px;
+  text-align: center;
+}
+#RateMoney tr:nth-child(even) {
+  background: white;
+}
+#RateMoney tr:hover{
+  background: rgba(255, 255, 255, 0.59);
+}
+
+/* money exchange tool form  */
+#ExchangeMoney {
+  width: 100%;
+  background: rgb(217, 245, 243);
+  border: solid 2px white;
+  box-shadow: 0px 1px 15px -10px;
+  padding: 10px
+}
+#ExchangeMoney * {
+  width: 100%;
+  margin: 2px auto;
+}
+
+#ExchangeMoney .title {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#ExchangeMoney .money{
+  text-align: right;
+  background-color: white;
+  padding: 5px;
+}
+#ExchangeMoney button {
+  padding: 5px;
+  background: rgb(244, 244, 161);
+  font-weight: bold;
+}
+#ExchangeMoney button:hover {
+  background: gray;
+  color: white ;
+}
+/* main menu - tool cal tax  */
+#menu {
+  /* background: white; */
+  /* margin: auto 30px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+}
+#menu button {
+  background: rgb(247, 247, 70);
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 15px -10px;
+  border: none;
+  font-size: 1.4em;
+
+  /* display: flex;
+  flex-direction: row;
+  flex-flow: row wrap; */
+
+}
+#menu button:hover {
+  background: rgb(249, 133, 0);
+  color: white;
+}
+/*right section style*/
+/* news section  */
+#news {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+#news #news-title {
+  font-weight: bold;
+}
+#news #news-sum {
+  box-shadow: 0px 1px 15px -10px;
+  background: rgba(255, 255, 255, 0.754);
+  border: solid 5px white;
+  width: 100%;
+  padding: 15px;
+}
