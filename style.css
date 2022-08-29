@@ -1,8 +1,8 @@
 /*document*/
-html{
-  background-image: linear-gradient(to right, pink,white);
+html {
+  background-image: linear-gradient(to right, pink, white);
 }
-*{
+* {
   box-sizing: border-box;
 }
 .block-title {
@@ -10,7 +10,7 @@ html{
 }
 /*navigation style*/
 nav {
-  display: block;  
+  display: block;
 }
 #nav-list {
   margin-top: 50px;
@@ -18,9 +18,8 @@ nav {
   list-style-type: none;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around ;
+  justify-content: space-around;
   /* justify-items: center; */
-
 }
 #nav-list li {
   /* width: 200px; */
@@ -31,16 +30,14 @@ nav {
   margin: 5px;
   text-align: center;
   padding: 20px;
-
 }
-#nav-list .nav a{
+#nav-list .nav a {
   color: black;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   /* vertical-align: middle; */
   /* align-self: center; */
-
 }
 
 /*main style*/
@@ -49,7 +46,6 @@ main {
   flex-direction: row;
   justify-content: space-around;
   margin: 20px auto;
-
 }
 
 /*left section style*/
@@ -62,13 +58,13 @@ aside {
   width: 100%;
   box-shadow: 0px 1px 15px -10px;
   margin-bottom: 20px;
-  font-size: 0.8em ;
-  border-collapse:collapse;
+  font-size: 0.8em;
+  border-collapse: collapse;
   border: solid 1px rgba(255, 255, 255, 0.511);
   background: rgb(217, 245, 243);
-
 }
-#RateMoney th, #RateMoney td {
+#RateMoney th,
+#RateMoney td {
   border: solid 1px rgba(255, 255, 255, 0.511);
   padding: 5px;
   text-align: center;
@@ -76,7 +72,7 @@ aside {
 #RateMoney tr:nth-child(even) {
   background: white;
 }
-#RateMoney tr:hover{
+#RateMoney tr:hover {
   background: rgba(255, 255, 255, 0.59);
 }
 
@@ -86,7 +82,7 @@ aside {
   background: rgb(217, 245, 243);
   border: solid 2px white;
   box-shadow: 0px 1px 15px -10px;
-  padding: 10px
+  padding: 10px;
 }
 #ExchangeMoney * {
   width: 100%;
@@ -99,7 +95,7 @@ aside {
   text-align: center;
   padding-bottom: 10px;
 }
-#ExchangeMoney .money{
+#ExchangeMoney .money {
   text-align: right;
   background-color: white;
   padding: 5px;
@@ -111,16 +107,16 @@ aside {
 }
 #ExchangeMoney button:hover {
   background: gray;
-  color: white ;
+  color: white;
 }
 /* main menu - tool cal tax  */
 #menu {
   /* background: white; */
   /* margin: auto 30px; */
+  width: 500px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  
 }
 #menu button {
   background: rgb(247, 247, 70);
@@ -136,7 +132,6 @@ aside {
   /* display: flex;
   flex-direction: row;
   flex-flow: row wrap; */
-
 }
 #menu button:hover {
   background: rgb(249, 133, 0);
@@ -145,7 +140,7 @@ aside {
 /*right section style*/
 /* news section  */
 #news {
-  width: 250px;
+  width: 700px;
   display: flex;
   flex-direction: column;
 }
@@ -157,5 +152,16 @@ aside {
   background: rgba(255, 255, 255, 0.754);
   border: solid 5px white;
   width: 100%;
-  padding: 15px;
+  padding: 1px;
+}
+#news article {
+  box-shadow: 0px 1px 15px -10px;
+  background: rgba(255, 255, 255, 0.856);
+  padding: 5px;
+  display: flex;
+}
+#news img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
 }
